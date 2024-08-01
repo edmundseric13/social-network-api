@@ -1,3 +1,4 @@
+console.log('Thought controller loaded');
 const { Thought, User } = require('../models');
 
 const thoughtController = {

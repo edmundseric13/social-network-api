@@ -1,4 +1,8 @@
+console.log('Thought controller path:', require.resolve('../../controllers/thought-controller'));
 const router = require('express').Router();
+const thoughtController = require('../../controllers/thought-controller');
+console.log('Thought controller:', thoughtController);
+
 const {
   getAllThoughts,
   getThoughtById,
@@ -7,7 +11,9 @@ const {
   deleteThought,
   addReaction,
   removeReaction
-} = require('../controllers/thought-controller');
+} = require('../../controllers/thought-controller');
+
+module.exports = router;
 
 // /api/thoughts
 router

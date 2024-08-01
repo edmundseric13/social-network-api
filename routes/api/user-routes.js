@@ -1,4 +1,8 @@
+console.log('User controller path:', require.resolve('../../controllers/user-controller'));
 const router = require('express').Router();
+const userController = require('../../controllers/user-controller');
+console.log('User controller:', userController);
+
 const {
   getAllUsers,
   getUserById,
@@ -7,7 +11,7 @@ const {
   deleteUser,
   addFriend,
   removeFriend
-} = require('../controllers/user-controller');
+} = require('../../controllers/user-controller');
 
 // /api/users
 router

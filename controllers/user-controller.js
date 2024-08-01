@@ -1,3 +1,4 @@
+console.log('User controller loaded');
 const { User, Thought } = require('../models');
 
 const userController = {
