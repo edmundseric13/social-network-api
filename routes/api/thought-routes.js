@@ -13,8 +13,6 @@ const {
   removeReaction
 } = require('../../controllers/thought-controller');
 
-module.exports = router;
-
 // /api/thoughts
 router
   .route('/')
