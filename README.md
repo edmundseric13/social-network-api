@@ -43,7 +43,7 @@ npm install
 
   ## Tests
 
- https://drive.google.com/file/d/1BkkUJoS_KrmZciLJDlXJOIDVKBHC_1OF/viewLinks
+ https://drive.google.com/file/d/1BkkUJoS_KrmZciLJDlXJOIDVKBHC_1OF/view
 
   ## Questions
 
